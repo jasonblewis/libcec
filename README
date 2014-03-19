@@ -23,7 +23,7 @@ To compile libCEC on Linux, you'll need the following dependencies:
 * liblockdev 1.0 development headers
 
   in debian:
-  $ sudo apt-get install autoconf automake libtool gcc liblockdev1
+  # sudo apt-get install autoconf automake libtool gcc liblockdev1
 
 
 The following dependencies are recommended. Without them, the adapter can not
@@ -31,9 +31,10 @@ be auto-detected.
 * pkg-config
 * udev development headers v151 or later
 
-  in debian:
-  sudo apt-get install pkg-config libudev-dev
-  
+
+To retreive the source, execute the following commands:
+# git clone https://github.com/Pulse-Eight/libcec.git
+# cd libcec
 
 To compile, execute the following commands:
 # ./bootstrap 
